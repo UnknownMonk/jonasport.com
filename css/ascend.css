@@ -1,0 +1,97 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/images/AscendTms.png');
+  /* background-image: url('/images/AscendTms.png'); */
+  background-repeat: no-repeat;
+}
+.player {
+  text-align: center;
+}
+
+video {
+  margin-top: 50px;
+  width: 50%;
+  height: 50%;
+  background-color: black;
+  animation: crescendo 0.5s ease-in;
+}
+@keyframes crescendo {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.sc1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skills {
+  height: 100%;
+  width: 28%;
+  background-color: white;
+  border: black solid 2px;
+  margin-left: 5%;
+}
+.contact {
+  height: 100%;
+  width: 28%;
+  background-color: white;
+  border: black solid 2px;
+}
+.about {
+  height: 400px;
+  width: 28%;
+  background-color: white;
+  border: black solid 2px;
+  margin-right: 5%;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  margin: 10px 0;
+}
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: rgb(10, 83, 83);
+}
+h2 {
+  color: rgb(63, 185, 226);
+}
+#sp1 {
+  color: orange;
+}
+section.sc1 {
+  margin: 50px 0;
+}
+p#cover {
+  padding: 0 20px;
+}
+img#bear {
+  width: 100%;
+}
+#arrow {
+  width: 50%;
+  height: 150px;
+}
+
+.sc2 {
+  margin-top: 200px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+#profile {
+  width: 60%;
+  height: 60%;
+}
